@@ -6,5 +6,5 @@
 
 This is an example of the implementation for Ilum interactive spark jobs. This implementation makes it easy to run Spark jobs on your data in order to build real time interaction with a Spark Cluster.
 
-More details can be found in the [blog post](https://blog.ilum.cloud/ghost/#/editor/post/631c7cecb1575600013b8617).
+More details can be found in the [blog post](https://ilum.cloud/blog/how-to-optimize-your-spark-cluster-with-interactive-spark-jobs/).
 
