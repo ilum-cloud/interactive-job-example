@@ -17,10 +17,6 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
-
-    maven {
-        url "https://repo.ilum.cloud"
-    }
 }
 
 dependencies {
@@ -29,14 +25,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
-    implementation 'cloud.ilum:ilum-job-api:4.1.0'
+    implementation 'cloud.ilum:ilum-job-api:5.0.2'
 
     compileOnly 'org.apache.spark:spark-sql_2.12:3.1.2'
-
-    // Use Scalatest for testing our library
-    testImplementation 'junit:junit:4.13.2'
-    testImplementation 'org.scalatest:scalatest_2.12:3.2.13'
-    testImplementation 'org.scalatestplus:junit-4-13_2.12:3.2.2.0'
 
     // Need scala-xml at test runtime
     testRuntimeOnly 'org.scala-lang.modules:scala-xml_2.12:1.2.0'
