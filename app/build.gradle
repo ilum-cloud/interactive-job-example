@@ -25,7 +25,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
-    implementation 'cloud.ilum:ilum-job-api:5.0.2'
+    implementation 'cloud.ilum:ilum-job-api:6.1.0'
 
     compileOnly 'org.apache.spark:spark-sql_2.12:3.1.2'
 
